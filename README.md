@@ -4,3 +4,14 @@
 ```
 XdaAbhi//Abhisek31
 ```
+
+#Help
+
+```
+yt-dlp --h
+```
+#for audio
+
+```
+yt-dlp -x --audio-format mp3 "link"
+```
