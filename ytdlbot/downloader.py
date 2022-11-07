@@ -168,16 +168,16 @@ def run_ffmpeg(cmd_list, bm):
 
 
 def can_convert_mp4(video_path, uid):
-    if not ENABLE_FFMPEG:
+    if ENABLE_FFMPEG:
         return False
-    if not ENABLE_VIP:
+    if ENABLE_VIP:
         return True
     video_streams = ffmpeg.probe(video_path, select_streams="v")
     try:
         duration = int(float(video_streams["format"]["duration"]))
     except Exception:
         duration = 0
-    if duration > MAX_DURATION and not VIP().check_vip(uid):
+    if duration > MAX_DURATION and VIP().check_vip(uid):
         logging.info("Video duration: %s, not vip, can't convert", duration)
         return False
     else:
