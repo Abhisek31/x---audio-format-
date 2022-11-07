@@ -21,7 +21,7 @@ from utils import get_func_queue
 class BotText:
     start = "Welcome to YouTube Download bot. Type /help for more information."
 
-    help = "Just Send ME The LINk\nI WILL DOWNLOAD AND UPLOAD THE FILE ON TELEGRAM "
+    help = f"""
 1. This bot should works at all times. If it doesn't, try to send the link again or DM @BennyThink
 
 2. At this time of writing, this bot consumes hundreds of GigaBytes of network traffic per day. 
