@@ -10,7 +10,8 @@ XdaAbhi//Abhisek31
 ### FOR WINDOWS 64bit 🔽
 [DOWNLOAD](https://github.com/yt-dlp/yt-dlp/releases/download/2022.11.11/yt-dlp.exe)
 
-### USAGE
+### USAGE 
+#     WINDOWS
 
 # Help
 ```
