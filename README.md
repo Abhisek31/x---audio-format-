@@ -11,27 +11,28 @@ XdaAbhi//Abhisek31
 [DOWNLOAD](https://github.com/yt-dlp/yt-dlp/releases/download/2022.11.11/yt-dlp.exe)
 
 ### USAGE
-#Help
+
+##Help
 ```
 yt-dlp.exe --h
 ```
-# for all format
+## for all format
 ```
 yt-dlp.exe -F "link"
 ```
-#for audio
+##for audio
 ```
 yt-dlp.exe -x --audio-format mp3 "link"
 ```
-#for video
+##for video
 ```
 yt-dlp.exe "link"
 ```
-#for bext video quality
+##for bext video quality
 ```
 yt-dlp.exe -f bestvideo "link"
 ```
-#for bext audio quality
+##for bext audio quality
 ```
 yt-dlp.exe -f bestaudio "link"
 ```
