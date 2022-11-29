@@ -36,4 +36,8 @@ yt-dlp.exe -f bestvideo "link"
 ```
 yt-dlp.exe -f bestaudio "link"
 ```
+### For Linux 
+    Remove .exe and other command is fine
+    Like ytdlp - f "link"
+    
 
