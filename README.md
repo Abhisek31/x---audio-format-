@@ -8,15 +8,11 @@ XdaAbhi//Abhisek31
 [DOWNLOAD](https://github.com/yt-dlp/yt-dlp/releases/download/2022.11.11/yt-dlp_x86.exe)
 
 ### FOR WINDOWS 64bit 🔽
-
 [DOWNLOAD](https://github.com/yt-dlp/yt-dlp/releases/download/2022.11.11/yt-dlp.exe)
 
 
-#Help
-
-```
-yt-dlp --h
-```
+#Help```
+yt-dlp --h```
 #for audio
 
 ```
